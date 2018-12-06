@@ -9,7 +9,7 @@ api = Api(app)
 @api.route('/hello')
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {'hello': 'world-florin'}
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
